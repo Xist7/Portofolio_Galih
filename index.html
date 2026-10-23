@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Galih Sigit Satrio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Unbounded:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="nebula" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="nav__brand" href="#top">Galih S. Satrio</a>
+  <nav aria-label="Navigasi utama">
+    <ul class="nav__list">
+      <li><a href="#profil" data-nav="profil">Profil</a></li>
+      <li><a href="#pengalaman" data-nav="pengalaman">Pengalaman</a></li>
+      <li><a href="#proyek" data-nav="proyek">Proyek</a></li>
+      <li><a href="#keahlian" data-nav="keahlian">Keahlian</a></li>
+      <li><a href="#kontak" data-nav="kontak">Kontak</a></li>
+    </ul>
+  </nav>
+  <span class="nav__progress" aria-hidden="true"></span>
+</header>
+
+<main class="wrap" id="top">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="judul">
+    <div class="hero__text">
+      <p class="eyebrow">Mahasiswa S1 Teknik Informatika &middot; ITERA</p>
+      <h1 id="judul">Galih Sigit<br>Satrio</h1>
+      <p class="hero__lede">Tertarik pada pengembangan perangkat lunak dan teknologi. Pernah menjadi asisten praktikum dan mengerjakan proyek game.</p>
+      <div class="hero__cta">
+        <a class="btn btn--solar" href="#proyek">Lihat proyek</a>
+        <a class="btn btn--ghost" href="https://github.com/Xist7" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost" href="#kontak">Hubungi saya</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFIL -->
+  <section class="section" id="profil" aria-labelledby="h-profil">
+    <header class="section__head">
+      <p class="eyebrow">Briefing</p>
+      <h2 id="h-profil">Profil</h2>
+    </header>
+    <div class="split">
+      <p class="prose">Saya mahasiswa S1 Teknik Informatika di Institut Teknologi Sumatera yang berminat pada pengembangan perangkat lunak dan teknologi. Saya terbiasa bekerja sama dalam tim, disiplin mengelola waktu, dan antusias mempelajari teknologi baru. Pengalaman saya mencakup menjadi asisten praktikum dan mengembangkan proyek game.</p>
+      <dl class="facts panel">
+        <div><dt>Institusi</dt><dd>Institut Teknologi Sumatera (ITERA)</dd></div>
+        <div><dt>Program</dt><dd>S1 Teknik Informatika</dd></div>
+        <div><dt>Tahap</dt><dd>Semester 5</dd></div>
+        <div><dt>Bahasa</dt><dd>Bahasa Inggris</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- PENGALAMAN -->
+  <section class="section" id="pengalaman" aria-labelledby="h-pengalaman">
+    <header class="section__head">
+      <p class="eyebrow">Flight log</p>
+      <h2 id="h-pengalaman">Pengalaman</h2>
+    </header>
+    <ol class="log">
+      <li class="log__item">
+        <p class="log__when">2025</p>
+        <h3>Asisten Praktikum</h3>
+        <ul class="log__list">
+          <li>Dasar Teknologi Digital</li>
+          <li>Pengenalan Komputasi</li>
+        </ul>
+      </li>
+      <li class="log__item">
+        <p class="log__when">Organisasi</p>
+        <h3>Anggota GenBI ITERA</h3>
+        <p>Berpartisipasi dalam kegiatan organisasi Generasi Baru Indonesia (GenBI) di lingkungan ITERA.</p>
+        <p>Mengembangkan kemampuan kerja sama, komunikasi, dan koordinasi melalui keterlibatan dalam kegiatan organisasi.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROYEK -->
+  <section class="section" id="proyek" aria-labelledby="h-proyek">
+    <header class="section__head">
+      <p class="eyebrow">Mission</p>
+      <h2 id="h-proyek">Proyek</h2>
+    </header>
+    <div class="missions">
+      <article class="mission panel">
+        <p class="mission__tag">Proyek Pengembangan Game</p>
+        <h3 class="mission__name">Beyond NU Suntara</h3>
+        <p class="mission__desc">Proyek pengembangan game yang menjadi bagian dari portofolio saya.</p>
+        <ul class="chips" aria-label="Teknologi">
+          <li>Godot</li>
+          <li>C++</li>
+          <li>Java</li>
+        </ul>
+        <a class="btn btn--ghost mission__link" href="https://github.com/Xist7/Beyond-Nu-Santara" target="_blank" rel="noopener">Lihat di GitHub</a>
+      </article>
+
+      <article class="mission panel">
+        <p class="mission__tag">Tugas Besar Kuliah</p>
+        <h3 class="mission__name">Compiler Pengecekan Ekspresi Matematika Sederhana</h3>
+        <p class="mission__desc">Compiler sederhana untuk memeriksa ekspresi matematika, dikerjakan sebagai tugas besar mata kuliah Teori Bahasa Formal dan Automata.</p>
+        <ul class="chips" aria-label="Topik">
+          <li>Compiler</li>
+          <li>Teori Bahasa Formal dan Automata</li>
+        </ul>
+        <a class="btn btn--ghost mission__link" href="https://github.com/Xist7/Tugas-Besar-Kuliah/tree/main/Teori%20Bahasa%20Formal%20dan%20Automata" target="_blank" rel="noopener">Lihat di GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- KEAHLIAN -->
+  <section class="section" id="keahlian" aria-labelledby="h-keahlian">
+    <header class="section__head">
+      <p class="eyebrow">Payload</p>
+      <h2 id="h-keahlian">Keahlian</h2>
+    </header>
+    <div class="bays">
+      <article class="bay panel">
+        <h3>Bahasa pemrograman</h3>
+        <ul class="chips"><li>C++</li><li>Java</li><li>Python</li><li>Kotlin</li></ul>
+      </article>
+      <article class="bay panel">
+        <h3>Pengembangan web</h3>
+        <ul class="chips"><li>HTML</li><li>CSS</li></ul>
+      </article>
+      <article class="bay panel">
+        <h3>Pengembangan game</h3>
+        <ul class="chips"><li>Godot</li></ul>
+      </article>
+      <article class="bay panel">
+        <h3>Perangkat perkantoran</h3>
+        <ul class="chips"><li>Microsoft Word</li><li>Microsoft Excel</li></ul>
+      </article>
+      <article class="bay panel">
+        <h3>Bahasa</h3>
+        <ul class="chips"><li>Bahasa Inggris</li></ul>
+      </article>
+      <article class="bay bay--soft panel">
+        <h3>Soft skills</h3>
+        <ul class="chips chips--ion">
+          <li>Kerja sama tim</li><li>Manajemen waktu</li><li>Adaptabilitas</li><li>Tanggung jawab</li><li>Pemecahan masalah</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="section" id="kontak" aria-labelledby="h-kontak">
+    <header class="section__head">
+      <p class="eyebrow">Comms</p>
+      <h2 id="h-kontak">Kontak</h2>
+    </header>
+    <div class="comms panel">
+      <p class="comms__lead">Silakan hubungi saya untuk kolaborasi atau sekadar berkenalan.</p>
+      <ul class="comms__list">
+        <li>
+          <span class="comms__label">Email</span>
+          <span class="comms__value" id="c-email">galih.124140001@student.itera.ac.id</span>
+          <button class="copy" type="button" data-copy="c-email">Salin</button>
+        </li>
+        <li>
+          <span class="comms__label">Telepon</span>
+          <span class="comms__value" id="c-tel">+62 857 6479 7279</span>
+          <button class="copy" type="button" data-copy="c-tel">Salin</button>
+        </li>
+        <li>
+          <span class="comms__label">GitHub</span>
+          <span class="comms__value" id="c-gh">github.com/Xist7</span>
+          <a class="copy copy--link" href="https://github.com/Xist7" target="_blank" rel="noopener">Buka</a>
+        </li>
+      </ul>
+      <p class="sr-only" id="copy-status" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>Galih Sigit Satrio &middot; Teknik Informatika, ITERA</p>
+    <a href="#top">Kembali ke atas</a>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
